@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de Ventas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #111, #444);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-top: -40px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .price {
+      font-size: 2em;
+      color: #e63946;
+      margin: 15px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #1d3557;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+    .benefits {
+      margin-top: 40px;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+    }
+    .benefits h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      padding: 10px 0;
+      font-size: 1.1em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    @media(max-width: 768px) {
+      .product {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body><header>
+  <h1>Tu Producto Estrella</h1>
+  <p>La solución perfecta para lo que estás buscando</p>
+</header><div class="container">
+  <section class="product">
+    <img src="https://via.placeholder.com/500" alt="Producto">
+    <div>
+      <h2>Nombre del Producto</h2>
+      <p>Describe aquí tu producto o servicio de forma clara y directa. Explica qué problema soluciona y por qué es mejor que los demás.</p>
+      <div class="price">$999 MXN</div>
+      <a href="#" class="btn">Comprar ahora</a>
+    </div>
+  </section>  <section class="benefits">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+      <li>✔ Alta calidad garantizada</li>
+      <li>✔ Entrega rápida y segura</li>
+      <li>✔ Atención personalizada</li>
+      <li>✔ Pago 100% seguro</li>
+    </ul>
+  </section>
+</div><footer>
+  © 2026 Tu Marca. Todos los derechos reservados.
+</footer></body>
+</html
